@@ -1,5 +1,10 @@
 package F4NT0;
 
+/**
+ * Autor: Gabriel Fanto Stundner
+ * Dificuldade: Não consegui colocar o POM.xml e Funcionar
+ */
+
 public class App 
 {
     public int[] qtdadeBarras(int peso){
@@ -13,14 +18,15 @@ public class App
             saida[1] = quantidade1Quilos;
         }else{
             quantidade1Quilos = peso;
-            saida[0] = null;
+            saida[0] = 0;
             saida[1] = quantidade1Quilos;
         }
         return saida;
     }
 
-    public static void main( String[] args )
-    {
-        
+    public static void main( String[] args ){
+        App teste = new App();
+        int[] saida = teste.qtdadeBarras(4);
+        for(int i = 0 ; i < saida.length ; i++){System.out.print(" [ " + saida[i] + " ] ");}
     }
 }
