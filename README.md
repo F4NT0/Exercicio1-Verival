@@ -1,2 +1,7 @@
-# Exercicio1-Verival
-Exercicio 1 de Verival
+# Exercício um de Verival
+
+* Para compilar o Maven:
+
+```shell
+> mvn compile
+```
